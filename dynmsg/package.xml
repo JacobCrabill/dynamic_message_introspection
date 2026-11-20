@@ -2,15 +2,17 @@
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>dynmsg</name>
-  <version>1.0.0</version>
+  <version>1.1.0</version>
   <description>Introspection tools for message to/from YAML conversions</description>
   <maintainer email="geoff@openrobotics.org">Geoffrey Biggs</maintainer>
-  <license>Apache 2.0</license>
+  <license>Apache-2.0</license>
   <author email="bedard.christophe@gmail.com">Christophe Bedard</author>
   <author email="geoff@openrobotics.org">Geoffrey Biggs</author>
   <author email="koonpeng@openrobotics.org">Koon Peng Teo</author>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>ament_cmake_ros_core</buildtool_depend>
+  <buildtool_export_depend>ament_cmake_ros_core</buildtool_export_depend>
 
   <depend>rcutils</depend>
   <depend>rosidl_runtime_c</depend>
